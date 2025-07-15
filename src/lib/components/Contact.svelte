@@ -17,7 +17,8 @@
 <section id="contact" class="bg-secondary py-20">
     <div class="container mx-auto px-6">
         <h2 class="mb-12 text-center text-3xl font-bold">Get In Touch</h2>
-        <form on:submit={{{sendEmail}}} class="mx-auto max-w-xl">
+        <form on:submit={{{sendEmail}}} git status
+        class="mx-auto max-w-xl">
             <div class="mb-4">
                 <input type="text" name="user_name" placeholder="Your Name" required class="w-full rounded bg-primary p-3 text-black focus:outline-none focus:ring-2 focus:ring-accent" />
             </div>
