@@ -2,19 +2,19 @@
 
 // Personal Information: Update with your details
 export const personalInfo = {
-  name: 'Your Name',
-  title: 'Creative Frontend Developer',
+  name: 'AKSHIT BANSAL',
+  title: 'TECH ENTHUSIAST',
   bio: 'A passionate developer with a love for clean code and intuitive user experiences. I specialize in building modern, responsive, and performant web applications.',
-  email: 'your.email@example.com',
-  github: 'https://github.com/your-username',
-  linkedin: 'https://linkedin.com/in/your-username',
+  email: 'akshitbansal7591@gmail.com',
+  github: 'https://github.com/Akshit7591',
+  linkedin: 'https://www.linkedin.com/in/akshit-bansal-294ba3359/',
 };
 
 // Skills: Grouped by category for the "Toolbox" section
 export const skills = [
   {
     category: 'Languages',
-    items: ['HTML', 'CSS', 'JavaScript', 'TypeScript']
+    items: ['HTML', 'CSS', 'JavaScript', 'C++']
   },
   {
     category: 'Frameworks & Libraries',
@@ -22,7 +22,7 @@ export const skills = [
   },
   {
     category: 'Tools & Platforms',
-    items: ['Git', 'GitHub', 'Vercel', 'VS Code']
+    items: ['Git', 'GitHub', 'VS Code']
   }
 ];
 
@@ -32,24 +32,21 @@ export const projects = [
     title: 'Project One: Portfolio Website',
     description: 'A modern portfolio built with SvelteKit to showcase personal projects and skills.',
     techStack: ['SvelteKit', 'Tailwind CSS', 'Vercel'],
-    liveUrl: 'https://example.com/project-one',
-    githubUrl: 'https://github.com/your-username/project-one',
+    githubUrl: 'https://akshit7591.github.io/portfolio/',
     image: '/images/project-one.png'
   },
   {
-    title: 'Project Two: Interactive Data Dashboard',
-    description: 'A data visualization dashboard that fetches and displays real-time data using D3.js within a Svelte component structure.',
-    techStack: ['Svelte', 'D3.js', 'Chart.js'],
-    liveUrl: 'https://example.com/project-two',
-    githubUrl: 'https://github.com/your-username/project-two',
+    title: 'Project Two: Simon Says Game',
+    description: 'an interactive and fun game',
+    techStack: ['javascript', 'html', 'css'],
+    githubUrl: 'https://github.com/Akshit7591/simon_says',
     image: '/images/project-two.png'
   },
   {
-    title: 'Project Three: Personal Blog',
-    description: 'A static-generated blog using SvelteKit and Markdown, focused on performance and SEO. Deployed on Vercel.',
-    techStack: ['SvelteKit', 'Markdown', 'Vercel'],
-    liveUrl: 'https://example.com/project-three',
-    githubUrl: 'https://github.com/your-username/project-three',
+    title: 'Project Three: Spotify Clone front page',
+    description: 'clone of front page of spotify',
+    techStack: ['html', 'css'],  
+    githubUrl: 'https://github.com/Akshit7591/spotify_clone',
     image: '/images/project-three.png'
   }
 ];
