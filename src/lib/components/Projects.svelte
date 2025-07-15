@@ -12,7 +12,7 @@
           <p class="mb-4 flex-grow">{project.description}</p>
           <div class="mb-4">
             {#each project.techStack as tech}
-              <span class="mb-2 mr-2 inline-block rounded-full bg-gray-700 px-3 py-1 text-sm font-semibold">{tech}</span>
+              <span class="mb-2 mr-2 inline-block rounded-full bg-gray-700 px-3 py-1 text-sm font-semibold text-black">{tech}</span>
             {/each}
           </div>
           <div class="mt-auto flex justify-start space-x-4">
