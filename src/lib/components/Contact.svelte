@@ -28,7 +28,7 @@
                 <textarea name="message" placeholder="Your Message" rows="4" required class="w-full rounded bg-primary p-3 text-white focus:outline-none focus:ring-2 focus:ring-accent"></textarea>
             </div>
             <div class="text-center">
-                <button type="submit" class="rounded bg-accent px-6 py-3 font-bold text-white transition duration-300 hover:bg-blue-500">
+                <button type="submit" class="rounded bg-accent px-6 py-3 font-bold text-black transition duration-300 hover:bg-blue-500">
                     Send Message
                 </button>
             </div>

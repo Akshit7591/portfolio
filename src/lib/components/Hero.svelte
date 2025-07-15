@@ -9,7 +9,7 @@
       Hi, I'm <span class="text-accent">{personalInfo.name}</span>.
     </h1>
     <p class="mb-8 text-xl md:text-2xl">{personalInfo.title}</p>
-    <a href="{base}/#projects" class="rounded bg-accent px-6 py-3 font-bold text-white transition duration-300 hover:bg-blue-500">
+    <a href="{base}/#projects" class="rounded bg-accent px-6 py-3 font-bold text-black transition duration-300 hover:bg-blue-500">
       View My Work
     </a>
   </div>

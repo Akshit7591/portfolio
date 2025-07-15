@@ -4,7 +4,7 @@
   import '../app.css'; // Imports the global CSS file where Tailwind directives are located
 </script>
 
-<div class="bg-primary text-gray-300 font-sans">
+<div class="bg-primary text-black-300 font-sans">
   <Header />
   
   <main>
