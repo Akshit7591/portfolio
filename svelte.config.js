@@ -8,8 +8,8 @@ const config = {
   kit: {
     adapter: adapter({
       // default options are fine for most cases
-      pages: 'build',
-      assets: 'build',
+      pages: 'docs',
+      assets: 'docs',
       fallback: undefined,
       precompress: false,
       strict: true
