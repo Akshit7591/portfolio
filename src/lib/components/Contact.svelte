@@ -5,7 +5,7 @@
     event.preventDefault();
     
     try {
-      await emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', event.target, 'YOUR_PUBLIC_KEY');
+      await emailjs.sendForm('service_ybhc54a', 'template_n949obv', event.target, 'ZXfkQ3gBq7uLP8YH7');
       alert('Message sent successfully!');
       event.target.reset();
     } catch (error) {
