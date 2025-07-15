@@ -1,16 +1,16 @@
 <script>
-  // We can import the data file to dynamically add your name
+  // Import personalInfo to dynamically display your name and social links
   import { personalInfo } from '$lib/data.js';
 </script>
 
-<footer class="bg-secondary py-8 text-center text-gray-400">
+<footer class="bg-secondary py-6 text-center text-gray-400">
   <div class="container mx-auto px-6">
-    <div class="flex justify-center space-x-6 mb-4">
+    <div class="mb-4 flex justify-center space-x-6">
       <a 
         href={personalInfo.github} 
         target="_blank" 
         rel="noopener noreferrer" 
-        class="hover:text-accent transition-colors duration-300"
+        class="transition-colors duration-300 hover:text-accent"
         aria-label="GitHub Profile"
       >
         GitHub
@@ -19,17 +19,17 @@
         href={personalInfo.linkedin} 
         target="_blank" 
         rel="noopener noreferrer" 
-        class="hover:text-accent transition-colors duration-300"
+        class="transition-colors duration-300 hover:text-accent"
         aria-label="LinkedIn Profile"
       >
         LinkedIn
       </a>
     </div>
     <p class="text-sm">
-      &copy; {new Date().getFullYear()} by {personalInfo.name}. All rights reserved.
+      &copy; {new Date().getFullYear()} {personalInfo.name}. All Rights Reserved.
     </p>
-    <p class="text-xs mt-2">
-      Designed & Built with SvelteKit and Tailwind CSS.
+    <p class="mt-2 text-xs">
+      Built with SvelteKit & Tailwind CSS.
     </p>
   </div>
 </footer>
