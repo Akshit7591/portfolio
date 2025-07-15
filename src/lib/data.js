@@ -32,7 +32,7 @@ export const projects = [
     title: 'Project One: Portfolio Website',
     description: 'A modern portfolio built with SvelteKit to showcase personal projects and skills.',
     techStack: ['SvelteKit', 'Tailwind CSS', 'Vercel'],
-    githubUrl: 'https://akshit7591.github.io/portfolio/',
+    githubUrl: 'https://github.com/Akshit7591/portfolio',
     image: '/images/project-one.png'
   },
   {
